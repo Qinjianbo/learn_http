@@ -7,8 +7,6 @@
 - URL包含于URI
 - URI完整格式如下：
 
-    
-           用户名密码                端口号              查询字符串
-    http://user:pass@www.boboidea.com:80/user/profile.md?userId=1&name=bobo#introduction
-    ===== ========== ================ == =============== ================== ============
-    协议名称         服务器地址          带层次的文件路径                   片段标识符
+|协议名称|用户名密码|服务器地址|端口号|带层次的文件路径|查询字符串|片段标识符|
+|:------:|:-------:|:---------:|:---:|:--------------:|:---------:|:--------:|
+|http://|user:pass|@www.boboidea.com|:80|/user/profile.md|?userId=1&name=bobo|#introduction|
