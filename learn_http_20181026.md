@@ -18,4 +18,4 @@
 - HTTP 是无状态的 stateless, COOKIE可以弥补状态问题
 - HTTP/1.1 及部分 HTTP/1.0 支持长连接 Connection:keep-alive 。支持长连接后就可以不用多次握手了。然后再加上管线化，就可以在上一个请求没有返回时继续发送下一个请求。
 - MIME - Multipurpose Internet Mail Extensions - 多用途因特网邮件扩展 :> 多部分对象集合Multipart使HTTP可以报文发送的主体可以包含多种类型实体。
-- 范围请求 - Range: bytes=5001-10000
+- 范围请求 - Range: bytes=5001-10000 (http断点续传)
